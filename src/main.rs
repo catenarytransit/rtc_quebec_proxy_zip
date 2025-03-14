@@ -30,5 +30,4 @@ async fn main() {
     //delete temp.zip
 
     std::fs::remove_file(temp_zip).unwrap();
-
 }
