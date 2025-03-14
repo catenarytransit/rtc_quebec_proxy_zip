@@ -1,0 +1,9 @@
+[package]
+name = "rtc_quebec_proxy_zip"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtfs-structures = "0.43.0"
+reqwest = "0.12.14"
+tokio = { version = "1.44.1", features = ["full"] }
